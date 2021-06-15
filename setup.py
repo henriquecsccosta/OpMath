@@ -13,7 +13,7 @@ setup(
       description = "OpMath Distribution Package",
       packages = find_packages(),
       include_packages_data = True,
-      install_requires = install.requires,
+      install_requires=install_requires,
       entry_points = {
             "console_scripts":[
                   "OpMath = OpMath.cli: main"
